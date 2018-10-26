@@ -1,0 +1,25 @@
+
+ul.top-menu {
+    position: relative;
+    left: 15px;
+    top: 15px;
+    margin: 0px;
+  }
+  
+  ul.top-menu li {
+    display: inline-block;
+  }
+  
+  ul.top-menu li:before {
+    content: '|';
+    margin: 0 4px;
+  }
+  
+  ul.top-menu li:nth-child(1):before {
+    content: ' ';
+    margin: 0;
+  }
+  
+  ul.top-menu li a.active{
+    color: green;
+  }
